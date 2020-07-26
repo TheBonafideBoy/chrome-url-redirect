@@ -1,0 +1,15 @@
+{
+    "name": "chrome-url-redirect",
+    "version": "1.0",
+    "description": "Redirects the url for java docs.oracle.com for any api from version 7 to version 8.",
+    "manifest_version": 2,
+    "background": {
+        "persistent": true,
+        "scripts": ["backgroundScript.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}
